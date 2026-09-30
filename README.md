@@ -58,6 +58,7 @@ GitHub Actions her push ve pull request'te aynı doğrulamayı çalıştırır. 
 
 ## Proje bağlamı
 
+- [Özgün proje kaynağı ve ilgili genel açıklamalar](docs/project-source.md)
 - [Kapsam ve açık kararlar](docs/project.md)
 - [Kaynakta belirtilen tasarım sınırları](docs/design.md)
 - [Doğrulama](docs/verification.md)

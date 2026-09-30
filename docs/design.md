@@ -1,6 +1,6 @@
 # Kaynakta belirtilen tasarım sınırları
 
-Kaynak: [proje hedefi](project.md). Bu belge yeni mimari karar üretmez.
+Kaynak: [özgün proje önerisi](project-source.md). Bu belge tasarım sınırlarının kısa özetidir; gerekçeler ve uyarılar kaynak dosyasında korunur. Yeni mimari karar üretmez.
 
 - Aynı uygulamanın iki Spring Boot sürümü, aynı sunucuda aynı PostgreSQL'i kullanır; iki ayrı mikroservis değildir.
 - Veri erişimi açık SQL ile JdbcClient; şema değişiklikleri Flyway üzerinden.

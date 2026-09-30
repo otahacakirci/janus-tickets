@@ -1,7 +1,7 @@
 # janus-tickets — proje hedefi
 
-**Kaynak:** backend-portfoy-proje-onerileri.md, “Ana proje 1 — Karma sürümde güvenli veri modeli değişikliği”; 30 Eylül 2026'daki dosya.
-**Yetki:** Kullanıcı bu projeyi Proje #1 olarak seçti. Kapsam yalnız kaynakta açıkça yazılanların aktarımıdır; açık konular karar değildir.
+**Kaynak:** [Özgün Proje #1 ve ilgili genel açıklamalar](project-source.md). Bu dosya kısa özettir; gerekçeler, uyarılar, öğrenme hedefleri, mülakat soruları ve kaynak bağlantıları orada korunur.
+**Yetki:** Kullanıcı bu projeyi Proje #1 olarak seçti. Aşağıdaki kapsam ve başarı kanıtları kaynak özetidir; sonraki kullanıcı tercihleri ayrı başlıktadır. Açık konular karar değildir.
 
 ## Sorun ve kapsam
 
@@ -31,8 +31,8 @@ Kesin istek/kayıt sayısı, trafik dağılımı, performans eşiği ve kapsam y
 - Taşımanın ilerleme kaydı, eşzamanlılık davranışı ve tutarsızlık ölçümü.
 - Deneyin kesin veri/istek sayısı, hata enjeksiyonları ve ayrıntılı test kabul ölçütleri.
 
-## Kullanıcının ek kurulum tercihi
+## Kaynaktan sonra verilen kullanıcı tercihleri ve kurulum karşılıkları
 
 30 Eylül 2026: Kullanıcı ilk Java 21 tercihini Java 25 LTS olarak değiştirdi; Spring Boot ve PostgreSQL'in en son sürümleri tercih edildi. Resmî kaynaklarda doğrulanan güncel kararlı sürümler Spring Boot 4.1.1 ve PostgreSQL 18.6 olarak sabitlendi.
 
-İlham kaynakları: [GitLab karma sürüm uyumluluğu](https://docs.gitlab.com/development/multi_version_compatibility/), [kesintisiz migration](https://docs.gitlab.com/development/database/avoiding_downtime_in_migrations/).
+Bu sürüm tercihleri özgün proje önerisinde yer almaz. Güncel çalıştırma komutları README'de, doğrulama kanıtı work.md dosyasındadır.
