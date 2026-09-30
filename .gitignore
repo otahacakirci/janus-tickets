@@ -1,0 +1,15 @@
+# Yerel gizli bilgiler
+.env
+.env.*
+!.env.example
+
+# Geçici dosyalar ve yaygın editör çıktıları
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+.vs/
+.idea/
+
+# Maven derleme çıktısı
+target/
