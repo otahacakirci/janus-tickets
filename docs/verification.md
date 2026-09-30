@@ -18,4 +18,4 @@ JUnit, MockMvc ve PostgreSQL Testcontainers kaynakta belirtilmiştir. Kesin sena
 
 JanusTicketsApplicationTests, Spring bağlamının ve gerçek PostgreSQL 18.6 bağlantısının açılabildiğini SELECT 1 ile kontrol eder. İş davranışı veya karma sürüm kanıtı değildir. Docker gerektirir; Docker olmadığında atlanmaz.
 
-Son çalıştırma sonucu [devir notunda](work.md) tutulur. GitHub üzerindeki çalıştırma ve zorunlu CI/merge kuralı, uzak repo oluşturulduğunda doğrulanmalıdır.
+Son çalıştırma sonucu [devir notunda](work.md) tutulur. GitHub main dalındaki zorunlu `verify` kontrolü yöneticiye de uygulanır. Karma sürüm ve uzlaştırma testleri eklendiğinde aynı Maven akışı içinde çalışmalıdır.
