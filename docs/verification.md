@@ -4,6 +4,8 @@ Komutların tek kaynağı: [README](../README.md).
 
 ## Yol haritasındaki doğrulama hedefleri
 
+Kaynak ve öğrenme/mülakat hedefleri: [özgün proje önerisi](project-source.md). Aşağıdaki tablo kısa kanıt özetidir.
+
 | Davranış | Kaynakta istenen kanıt |
 | --- | --- |
 | Karma sürüm uyumluluğu | Eşzamanlı trafikte iki sürümden okuma |
